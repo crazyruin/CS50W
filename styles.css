@@ -23,9 +23,7 @@ th {
     text-align: center;
     color:red;
     background-color: teal;
-    height: 80px;
-    width: 200px;
-    margin: 30px;
     padding: 10px;
     border: 5px dotted yellow;
+    width: 97%;
 }
