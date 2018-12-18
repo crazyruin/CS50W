@@ -1,11 +1,11 @@
 @media (min-width: 500) {
-    #h1::before {
+    #welcome::before {
         content: "Welcome to my Web Page!";
     }
 }
 
 @media (max-width: 499) {
-    h1::before {
+    #welcome::before {
         content: "Welcome!";
     }
 }
