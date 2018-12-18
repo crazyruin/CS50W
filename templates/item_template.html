@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href = {{ url_for('static', filename='css/styles.css') }}>
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Index</a></li>
+                <li><a href="{{ url_for('characters') }}">Characters</a></li>
+                <li><a href="{{ url_for('campaigns') }}">Campaigns</a></li>
+                <li><a href="{{ url_for('items') }}">Items</a></li>
+            </ul>
+        </nav>
+
+        {% block contents %}
+        {% endblock %}
+
+        <td><button onclick="window.location.href='{{ url_for('characters') }}';" class = "returnlink">&lArr; Return to Items</button></td>
+    </body>
+</html>

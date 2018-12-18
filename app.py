@@ -5,11 +5,11 @@ app.static_folder = 'static'
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("pages/index.html")
 
 @app.route("/characters")
 def characters():
-    return render_template("characters.html")
+    return render_template("pages/characters.html")
 
 @app.route("/characters/jittik")
 def jittik():
@@ -33,10 +33,10 @@ def al():
 
 @app.route("/campaigns")
 def campaigns():
-    return render_template("campaigns.html")
+    return render_template("pages/campaigns.html")
 
 @app.route("/items")
 def items():
-    return render_template("items.html")
+    return render_template("pages/items.html")
 
 
