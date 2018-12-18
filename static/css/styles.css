@@ -43,10 +43,16 @@ th {
     #welcome::before {
         content: "Welcome to my Web Page!";
     }
+    h1{
+        color:red
+    }
 }
 
 @media (max-width: 499px) {
     #welcome::before {
         content: "Welcome!";
+    }
+    h1{
+        color: blue
     }
 }
