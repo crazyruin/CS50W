@@ -81,9 +81,9 @@ nav .active {
     background-color: #4CAF50;
   }
 
-.itemtype{
+p.itemtype{
     text-align: center;
-    font-style: italic
+    font-style: italic;
 }
 
 .itemname{
