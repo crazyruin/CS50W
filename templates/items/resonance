@@ -1,0 +1,11 @@
+{% extends "item_template.html" %}
+
+{% block title %}Resonance{% endblock %}
+
+{% block headline %}
+<h1 class = "character" > Resonance </h1>
+{% endblock %}
+
+{% block headline %}
+<p>This ornate blade was given to the bard Milo by the Vistani Mynha after his successful escape from the shadowfell.</p>
+{% endblock %}

@@ -15,7 +15,10 @@
             </ul>
         </nav>
 
-        {% block contents %}
+        {% block headline %}
+        {% endblock %}
+        <h2>History:</h2>
+        {% block history %}
         {% endblock %}
 
         <td><button onclick="window.location.href='{{ url_for('characters') }}';" class = "returnlink">&lArr; Return to Items</button></td>

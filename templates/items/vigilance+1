@@ -1,0 +1,11 @@
+{% extends "item_template.html" %}
+
+{% block title %}Vigilance +1{% endblock %}
+
+{% block headline %}
+<h1 class = "character" > Vigilance +1 </h1>
+{% endblock %}
+
+{% block headline %}
+<p>This ornate enchanted blade was given to the bard Milo by the Vistani Mynha after his successful escape from the shadowfell.</p>
+{% endblock %}

@@ -39,4 +39,10 @@ def campaigns():
 def items():
     return render_template("pages/items.html")
 
+@app.route("/vigilance0")
+def items():
+    return render_template("items/vigilance+1.html")
 
+@app.route("/items/resonance0")
+def items():
+    return render_template("items/resonance.html")
