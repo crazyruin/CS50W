@@ -2,10 +2,10 @@
 <html>
     <head>
         <title>Jittik the Dreadsinger</title>
-        <link rel="stylesheet" href = "styles.css">
+        <link rel="stylesheet" href = {{ url_for('static', filename='css/style.css') }}>
     </head>
     <body>
         <h1 class = "character" > Jittik the Dreadsinger </h1>
-        <td><button onclick="window.location.href={{ url_for('characters') }}'" class = "returnlink">&lArr; Return</button></td>
+        <td><button onclick="window.location.href={{ url_for('characters') }}'" class = "charlink">Link!</button></td>
     </body>
 </html>
