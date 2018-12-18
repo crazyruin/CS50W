@@ -30,3 +30,13 @@ def lucien():
 @app.route("/characters/al")
 def al():
     return render_template("characters/al.html")
+
+@app.route("/campaigns")
+def campaigns():
+    return render_template("campaigns.html")
+
+@app.route("/items")
+def items():
+    return render_template("items.html")
+
+
