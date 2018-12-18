@@ -40,9 +40,9 @@ def items():
     return render_template("pages/items.html")
 
 @app.route("/vigilance0")
-def items():
+def vigilance1():
     return render_template("items/vigilance+1.html")
 
 @app.route("/items/resonance0")
-def items():
+def resonance0():
     return render_template("items/resonance.html")
