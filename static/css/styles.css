@@ -1,17 +1,17 @@
-h1 {
-    text-align:center;
-}
-
 @media (min-width: 500px) {
-    #welcome::before {
+    #welcome {
         content: "Welcome to my Web Page!";
     }
 }
 
 @media (max-width: 499px) {
-    #welcome::before {
+    #welcome {
         content: "Welcome!";
     }
+}
+
+h1 {
+    text-align:center;
 }
 
 table {
