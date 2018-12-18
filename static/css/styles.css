@@ -1,15 +1,3 @@
-@media  (min-width: 500px) {
-    h1::before {
-        content: "Welcome to my Web Page!";
-    }
-}
-
-@media (max-width: 499px) {
-    h1::before {
-        content: "Welcome!";
-    }
-}
-
 h1 {
     text-align:center;
 }
@@ -49,4 +37,16 @@ th {
 
 .charlink:hover {
     background-color: orange;
+}
+
+@media  (min-width: 500px) {
+    #welcome::before {
+        content: "Welcome to my Web Page!";
+    }
+}
+
+@media (max-width: 499px) {
+    #welcome::before {
+        content: "Welcome!";
+    }
 }
