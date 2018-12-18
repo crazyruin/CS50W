@@ -46,3 +46,7 @@ def vigilance1():
 @app.route("/items/resonance0")
 def resonance0():
     return render_template("items/resonance.html")
+
+@app.route("/items/resonance1")
+def resonance0():
+    return render_template("items/resonance+1.html")
