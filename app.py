@@ -5,3 +5,27 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return render_template("index.html")
+
+@app.route("/characters")
+def characters():
+    return render_template("characters.html")
+
+@app.route("/characters/jittik")
+def jittik():
+    return render_template("characters/jittik.html")
+
+@app.route("/characters/kaelin")
+def kaelin():
+    return render_template("characters/milo2.html")
+
+@app.route("/characters/milo")
+def milo():
+    return render_template("characters/milo.html")
+
+@app.route("/characters/lucien")
+def lucien():
+    return render_template("characters/lucien.html")
+
+@app.route("/characters/al")
+def al():
+    return render_template("characters/al.html")
