@@ -15,7 +15,10 @@
             </ul>
         </nav>
 
-        {% block contents %}
+        {% block intro %}
+        {% endblock %}
+
+        {% block world %}
         {% endblock %}
 
         <td><button onclick="window.location.href='{{ url_for('campaigns') }}';" class = "returnlink">&lArr; Return to Campaigns</button></td>
