@@ -1,3 +1,15 @@
+@media (min-width: $widthl) {
+    #welcome::before {
+        content: "Welcome to my Web Page!";
+    }
+}
+
+@media (max-width: $widthl) {
+    #welcome::before {
+        content: "Welcome!";
+    }
+}
+
 h1 {
     text-align:center;
 }
