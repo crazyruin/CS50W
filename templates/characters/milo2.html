@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Kaelin Highhill</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href = {{ url_for('static', filename='css/styles.css') }}>
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <li><a href="{{ url_for('index') }}">Index</a></li>
-                <li><a href="{{ url_for('characters') }}">Characters</a></li>
-                <li><a href="{{ url_for('campaigns') }}">Campaigns</a></li>
-                <li><a href="{{ url_for('items') }}">Items</a></li>
-            </ul>
-        </nav>
-        <h1 class = "character" > Kaelin Highhill </h1>
-        <td><button onclick="window.location.href='{{ url_for('characters') }}';" class = "returnlink">&lArr; Return to Characters</button></td>
-    </body>
-</html>
+{% extends "character_template.html" %}
+
+{% block title %} Kaelin Highhill {% endblock %}
+
+{% block contents %}
+<h1 class = "character" > Kaelin Highhill </h1>
+{% endblock %}
