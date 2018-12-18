@@ -3,28 +3,10 @@
     <head>
         <title>My Webpage!</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href = {{ url_for('static', filename='css/styles.css') }}>
-        <style>  
-            @media  (min-width: 500px) {
-                #welcome::before {
-                    content: "Welcome to my Web Page!";
-                }
-                h1{
-                    color:red
-                }
-            }
-
-            @media (max-width: 499px) {
-                #welcome::before {
-                    content: "Welcome!";
-                }
-                h1{
-                    color: blue
-                }
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" media = screen href = {{ url_for('static', filename='css/styles.css') }}>
     </head>
+
     <body>
-        <h1 id="welcome">test</h1>
+        <h1 id="welcome"></h1>
     </body>
 </html>
