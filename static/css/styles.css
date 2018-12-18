@@ -1,11 +1,11 @@
-@media (min-width: 500px) {
-    #welcome {
+@media screen and (min-width: 500px) {
+    #welcome::before {
         content: "Welcome to my Web Page!";
     }
 }
 
-@media (max-width: 499px) {
-    #welcome {
+@media screen and (max-width: 499px) {
+    #welcome::before {
         content: "Welcome!";
     }
 }
